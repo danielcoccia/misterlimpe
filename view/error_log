@@ -1,0 +1,900 @@
+[18-Nov-2020 15:40:42 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/miste122/public_html/view/conexao.php on line 2
+[18-Nov-2020 15:40:42 America/Fortaleza] PHP Fatal error:  Class 'Conexao' not found in /home3/miste122/public_html/model/ModelMenu.php on line 5
+[18-Nov-2020 15:41:08 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/miste122/public_html/view/conexao.php on line 2
+[18-Nov-2020 15:41:08 America/Fortaleza] PHP Fatal error:  Class 'Conexao' not found in /home3/miste122/public_html/model/ModelMenu.php on line 5
+[18-Nov-2020 15:41:24 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/miste122/public_html/view/conexao.php on line 2
+[18-Nov-2020 15:41:24 America/Fortaleza] PHP Fatal error:  Class 'Conexao' not found in /home3/miste122/public_html/model/ModelMenu.php on line 5
+[18-Nov-2020 15:42:17 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/miste122/public_html/view/conexao.php on line 2
+[18-Nov-2020 15:42:17 America/Fortaleza] PHP Fatal error:  Class 'Conexao' not found in /home3/miste122/public_html/model/ModelMenu.php on line 5
+[18-Nov-2020 15:45:41 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/miste122/public_html/view/conexao.php on line 2
+[18-Nov-2020 15:45:41 America/Fortaleza] PHP Fatal error:  Class 'Conexao' not found in /home3/miste122/public_html/model/ModelMenu.php on line 5
+[20-Dec-2020 13:41:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jan-2021 12:00:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[29-Jan-2021 17:07:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[30-Jan-2021 03:12:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[04-Feb-2021 02:27:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[07-Feb-2021 10:33:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[04-Mar-2021 01:25:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Mar-2021 01:53:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[09-Mar-2021 05:06:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[15-Mar-2021 13:38:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Mar-2021 12:04:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Mar-2021 12:04:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-Apr-2021 18:15:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[18-Apr-2021 09:51:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[19-Apr-2021 20:52:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[21-Apr-2021 01:04:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[01-May-2021 14:37:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[07-May-2021 20:52:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[07-May-2021 20:52:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[10-May-2021 19:20:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[11-May-2021 17:29:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[16-May-2021 20:52:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-May-2021 03:06:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-May-2021 18:15:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[23-May-2021 14:41:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[12-Jun-2021 10:59:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[13-Jun-2021 04:29:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[13-Jun-2021 09:38:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[18-Jun-2021 07:52:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[18-Jun-2021 07:52:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 13:59:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[23-Jun-2021 14:45:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[30-Jun-2021 15:06:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[08-Jul-2021 02:12:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[10-Jul-2021 07:41:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[10-Jul-2021 07:41:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[16-Jul-2021 03:09:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Jul-2021 03:47:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Jul-2021 14:39:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Jul-2021 21:23:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[18-Jul-2021 00:06:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[28-Jul-2021 12:54:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[10-Aug-2021 22:51:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[17-Aug-2021 12:03:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[09-Sep-2021 08:06:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[20-Sep-2021 16:09:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 16:18:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 18:02:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 18:10:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 20:19:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 20:19:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 20:19:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 20:19:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[20-Sep-2021 20:19:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[22-Sep-2021 19:42:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[22-Sep-2021 19:42:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[02-Oct-2021 18:58:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[02-Oct-2021 18:59:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[03-Oct-2021 02:50:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[03-Oct-2021 02:57:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[09-Oct-2021 15:34:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/model/conexao.php:57
+Stack trace:
+#0 /home3/miste122/public_html/model/ModelProdutos.php(38): Conexao->executeQuery1('select \n       ...')
+#1 /home3/miste122/public_html/service/ServiceProdutos.php(18): ModelProdutos->getProdutoDetalhe(Array)
+#2 /home3/miste122/public_html/view/produtosDetalhe.php(7): ServiceProdutos->getProdutoDetalhe(Array)
+#3 {main}
+  thrown in /home3/miste122/public_html/model/conexao.php on line 57
+[20-Oct-2021 09:03:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[26-Oct-2021 02:06:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[26-Oct-2021 19:00:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[03-Nov-2021 19:25:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Nov-2021 02:00:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Nov-2021 10:10:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Nov-2021 11:14:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Nov-2021 16:47:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[05-Nov-2021 22:43:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[06-Nov-2021 17:33:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[09-Nov-2021 02:59:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[09-Nov-2021 12:30:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
+[11-Nov-2021 05:56:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home3/miste122/public_html/view/produtos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/miste122/public_html/view/produtos.php on line 15
