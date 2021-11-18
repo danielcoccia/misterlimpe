@@ -50,4 +50,4 @@
 </head>
 <body>
 	<!-- Container id="container"-->
-	<div class="container" style="padding: 0">
+	<div>
